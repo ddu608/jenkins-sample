@@ -12,7 +12,7 @@ def refreshDB() {
 node('master'){
     properties([parameters([
         string(defaultValue: 'master', name: 'branch', trim: true), 
-        choice(choices: ['staging', 'sandbox', 'prod'], name: 'env')])
+        choice(choices: ['staging', 'sandbox', 'prod'], name: 'env')
         ])])
     stage('checkout'){
         git branch: params.branch,url: 'https://github.com/ddu608/allure-junit-example.git'
