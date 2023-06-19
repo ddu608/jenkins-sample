@@ -20,6 +20,7 @@
     - workflow as code
         - groovy pipelines
     - 1000+ plugins to do most of everythings
+        - plugin management
 3. How to design a workflow
     - trigger
         - type
@@ -34,7 +35,6 @@
         - testing
         - package
         - deployment
-
     - post action
         - notification (good or ng )
         - call downstream build
@@ -45,5 +45,6 @@
     - Error handling and retry
     - Notification and alert
     - Parallelize builds
-    - Cost saving
+    - Leverage clouds and distributed builds
+    - Auto-scale and Cost saving
     - Security
