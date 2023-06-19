@@ -16,10 +16,10 @@
     - parameterized
     - notificaiton
     - API integrations
-    - Call another build
     - workflow as code
         - groovy pipelines
         - pipeline-syntax
+    - Call another build
     - 1000+ plugins to do most of everythings
         - plugin management
 3. How to design a workflow
